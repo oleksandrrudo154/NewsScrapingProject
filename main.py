@@ -1,6 +1,5 @@
 import os
 from dotenv import load_dotenv
-
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_chroma import Chroma
 from langchain.chains.summarize import load_summarize_chain
